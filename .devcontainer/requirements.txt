@@ -23,7 +23,7 @@ langchain-community
 langchain-text-splitters
 faiss-cpu               # RAG 벡터스토어 (06_rag.ipynb)
 pymupdf                 # PDF 문서 RAG (PyMuPDFLoader — 내 문서로 교체 시)
-mcp                     # MCP 서버 (mcp/library_server.py)
+mcp                     # MCP 서버 (mcp_demo/library_server.py)
 
 # 노트북
 jupyter
