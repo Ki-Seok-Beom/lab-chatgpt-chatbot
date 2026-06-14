@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Dev Container 생성 직후 1회 실행되는 셋업 스크립트
-set -euo pipefail
+set -eu
+# Enable pipefail if the shell supports it (bash/zsh). Ignore if unsupported.
+{ set -o pipefail; } 2>/dev/null || true
 
 echo "==> Python 도구 점검"
 python --version
